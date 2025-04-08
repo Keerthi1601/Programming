@@ -66,11 +66,6 @@ int main() {
     printf("Data in the list:\n");
     Print_data(head);
 
-    // Free the allocated memory to prevent memory leaks
-    free(head->link->link);
-    free(head->link);
-    free(head);
-
     return 0;
 }
 
