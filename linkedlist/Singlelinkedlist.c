@@ -65,6 +65,7 @@ int main() {
     // Print the data of each node
     printf("Data in the list:\n");
     Print_data(head);
+    printf("Single Linked List\n");
 
     return 0;
 }
